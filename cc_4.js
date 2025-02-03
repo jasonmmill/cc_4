@@ -14,3 +14,11 @@ for (let i = 0; i < sales.length; i++) {
     totalSales += sales[i];
 }
 console.log(`Total sales: $${totalSales}`)
+
+// Task 3: While Loop 
+
+let stock = 10
+while (stock >= 0) {
+    console.log(`Stock: ${stock}`);
+    stock--;
+}
