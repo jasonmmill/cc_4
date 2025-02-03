@@ -30,3 +30,10 @@ do {
     console.log(`Response ${response}`);
     response++;
 } while (response <= 3);
+
+// Task 5: For...In Loop
+
+let employee = { name: "Alice", position: "Manager", salary: 75000 }
+for (let key in employee) {
+        console.log(`${key}: ${employee[key]}`)
+    }
