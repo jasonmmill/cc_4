@@ -53,9 +53,18 @@ orders.forEach(order => {
 });
 
 // Task 8: Function Declaration
-amount = 10
-taxRate = 0.1    
+let amount = 10
+let taxRate = 0.1    
 function calculateTax() {
     return amount * taxRate
 }
 console.log(`Tax amount: ${calculateTax()}`)
+
+// Task 9: Function Expressions
+
+let price = 100
+let discount = (1 - 0.2)
+function applyDiscount() {
+    return price * discount
+}
+console.log(`Discounted price: ${applyDiscount()}`)
