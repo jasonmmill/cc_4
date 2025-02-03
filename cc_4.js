@@ -68,3 +68,10 @@ function applyDiscount() {
     return price * discount
 }
 console.log(`Discounted price: ${applyDiscount()}`)
+
+// Task 10: Arrow Functions
+
+let purchPrice = 100
+let calculatePoints = (a, b) => a /= b
+
+console.log(`Points awarded: ${calculatePoints(purchPrice,10)}`)
