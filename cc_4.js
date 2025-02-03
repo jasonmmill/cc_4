@@ -46,7 +46,16 @@ for (const product in products) {
     }
 
 // Task 7: forEach() Method
+
 let orders = [ 101, 102, 103 ]
 orders.forEach(order => {
     console.log(`Order ${order}`)
 });
+
+// Task 8: Function Declaration
+amount = 10
+taxRate = 0.1    
+function calculateTax() {
+    return amount * taxRate
+}
+console.log(`Tax amount: ${calculateTax()}`)
