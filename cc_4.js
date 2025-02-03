@@ -44,3 +44,9 @@ let products = [ "Laptop", "Mouse", "Keyboard"]
 for (const product in products) {
     console.log(`${products[product]}`)
     }
+
+// Task 7: forEach() Method
+let orders = [ 101, 102, 103 ]
+orders.forEach(order => {
+    console.log(`Order ${order}`)
+});
