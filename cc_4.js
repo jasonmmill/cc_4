@@ -22,3 +22,11 @@ while (stock >= 0) {
     console.log(`Stock: ${stock}`);
     stock--;
 }
+
+// Task 4: Do...While Loop
+
+let response = 0
+do {
+    console.log(`Response ${response}`);
+    response++;
+} while (response <= 3);
