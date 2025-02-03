@@ -37,3 +37,10 @@ let employee = { name: "Alice", position: "Manager", salary: 75000 }
 for (let key in employee) {
         console.log(`${key}: ${employee[key]}`)
     }
+
+// Task 6: For...Of Loop
+
+let products = [ "Laptop", "Mouse", "Keyboard"]
+for (const product in products) {
+    console.log(`${products[product]}`)
+    }
